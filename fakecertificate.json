@@ -1,12 +1,18 @@
-{"Name":"Jhon", 
-"Surname":"Rambo",
-"Date of Birth":"1947-07-22",
-"Unique Certificate identifier":"95ITLSKR8LA013724LM92Q6G9F4P1L194LK6#3",
-"Disease or agent targeted":"Covid-19",
-"Vaccine/Prophylaxis":"SARS-CoV-2-mRNA vaccine",
-"Vaccine medicinal product":"Comirnaty",
-"Vaccine marketing authorisation holder or manufacturer":"Biontech Manufacturing GmbH",
-"Number in a series of vaccinations/doses and the overall":"2/2",
-"Date of vaccination (yyyy-mm-dd)":"2021-03-05",
-"Member State of vaccination":"IT",
-"Certificate issuer":"Ministero della salute"}
+{"Person": {
+    "Name":"Jhon", 
+    "Surname":"Rambo",
+    "Date of Birth":"1947-07-22"},
+"Certificate":{
+    "Unique Certificate identifier":"95ITLSKR8LA013724LM92Q6G9F4P1L194LK6#3",
+    "Disease or agent targeted":"Covid-19",
+    "Number in a series of vaccinations/doses and the overall":"2/2",
+    "Date of vaccination (yyyy-mm-dd)":"2021-03-05"},
+"Vaccine":{
+    "Vaccine/Prophylaxis":"SARS-CoV-2-mRNA vaccine",
+    "Vaccine medicinal product":"Comirnaty",
+    "Vaccine marketing authorisation holder or manufacturer":"Biontech Manufacturing GmbH"},
+"Govern Authority":{
+    "Member State of vaccination":"IT",
+    "Certificate issuer":"Ministero della salute",
+    "Further Information":"www.salute.gov.it",
+    "Verifier App":"https://reopen.europa.eu/en"}}
