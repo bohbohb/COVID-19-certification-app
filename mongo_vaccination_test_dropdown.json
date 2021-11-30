@@ -1,0 +1,23 @@
+{
+    "place": [
+        "Farmacia Sun Store Lugano Peri",  
+        "Farmacia Coop Vitality Viganello", 
+        "Farmacia Coop Vitality Canobbio",  
+        "Amavita Lugano", 
+        "Farmacia Male", 
+        "Farmacia delle Semine",  
+        "Farmacia Amavita Centro Breggia"
+    ],
+    "manufacturer": [
+        "Pfizer", 
+        "Moderna", 
+        "Astrazeneca", 
+        "Jonson&Jonson", 
+        "Sputnik" 
+    ],
+    "dose": [
+        "1",
+        "2",
+        "3"
+    ]
+}

@@ -1,10 +1,634 @@
-[{"_id":{"$oid":"61a54fd7fc13ae23b900001e"},"uvci":"33261-486","generated_on":{"$date":"2021-11-08T21:06:44.000Z"},"valid_until":{"$date":"2022-10-08T23:51:10.000Z"},"person":{"name":"Aurélie","surname":"Saltsberger","birthday":{"$date":"1975-03-15T01:05:50.000Z"},"birthplace":"Bern","phone_number":"942-776-3132","email":"mlarcombe0@chron.com","emergency_contact":{"name":"Mireille","surname":"Larcombe","phone_number":"794-648-1173"}},"vaccination":{"dose":"Dose 3","date_of_vaccination":{"$date":"2020-12-13T04:28:33.000Z"},"place":"Farmacia Amavita Centro Breggia","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Moderna","location":{"type":"Point","coordinates":"[46.2083218307516 - 6.125876512213772]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b900001f"},"uvci":"52486-100","generated_on":{"$date":"2021-04-03T14:40:24.000Z"},"valid_until":{"$date":"2022-10-13T23:55:59.000Z"},"person":{"name":"Eugénie","surname":"Cappineer","birthday":{"$date":"1977-05-04T14:50:11.000Z"},"birthplace":"Genève","phone_number":"618-448-2037","email":"bfishly1@who.int","emergency_contact":{"name":"Benedick","surname":"Fishly","phone_number":"804-804-4644"}},"vaccination":{"dose":"Dose 2","date_of_vaccination":{"$date":"2021-06-18T12:51:47.000Z"},"place":"Farmacia Sun Store Lugano Peri","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Sputnik","location":{"type":"Point","coordinates":"[46.2083218307516 - 6.125876512213772]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b9000020"},"uvci":"0069-2590","generated_on":{"$date":"2021-10-20T06:32:02.000Z"},"valid_until":{"$date":"2022-08-22T06:16:33.000Z"},"person":{"name":"Marie-ève","surname":"Shedden","birthday":{"$date":"1977-10-23T07:13:20.000Z"},"birthplace":"Zürich","phone_number":"623-675-4215","email":"areyner2@nydailynews.com","emergency_contact":{"name":"Annora","surname":"Reyner","phone_number":"924-258-3294"}},"vaccination":{"dose":"Dose 1","date_of_vaccination":{"$date":"2021-11-18T17:13:09.000Z"},"place":"Farmacia delle Semine","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Pfizer","location":{"type":"Point","coordinates":"[46.01993746086479 - 8.96619056025192]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b9000021"},"uvci":"68180-480","generated_on":{"$date":"2021-05-19T04:45:18.000Z"},"valid_until":{"$date":"2022-02-27T08:19:30.000Z"},"person":{"name":"Léa","surname":"Viste","birthday":{"$date":"1976-09-18T06:04:07.000Z"},"birthplace":"Zürich","phone_number":"411-947-3631","email":"eeidler3@google.pl","emergency_contact":{"name":"Ezequiel","surname":"Eidler","phone_number":"441-473-6890"}},"vaccination":{"dose":"Dose 1","date_of_vaccination":{"$date":"2021-02-15T18:44:55.000Z"},"place":"Farmacia delle Semine","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Jonson&Jonson","location":{"type":"Point","coordinates":"[46.00667453299541 - 8.966104729563854]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b9000022"},"uvci":"51672-4130","generated_on":{"$date":"2021-02-04T18:45:35.000Z"},"valid_until":{"$date":"2022-09-22T00:59:54.000Z"},"person":{"name":"Noémie","surname":"Berkely","birthday":{"$date":"1971-12-31T22:35:28.000Z"},"birthplace":"Zürich","phone_number":"589-156-7821","email":"mblackater4@e-recht24.de","emergency_contact":{"name":"Max","surname":"Blackater","phone_number":"763-142-9140"}},"vaccination":{"dose":"Dose 3","date_of_vaccination":{"$date":"2021-04-19T20:45:37.000Z"},"place":"Farmacia Amavita Centro Breggia","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Jonson&Jonson","location":{"type":"Point","coordinates":"[47.38930611066339 - 8.50445198529752]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b9000023"},"uvci":"49349-730","generated_on":{"$date":"2021-10-21T20:38:45.000Z"},"valid_until":{"$date":"2022-09-27T03:51:49.000Z"},"person":{"name":"Vénus","surname":"Canelas","birthday":{"$date":"1984-08-15T16:55:08.000Z"},"birthplace":"Genève","phone_number":"775-971-7074","email":"memps5@ucoz.ru","emergency_contact":{"name":"Melloney","surname":"Emps","phone_number":"603-558-9882"}},"vaccination":{"dose":"Dose 3","date_of_vaccination":{"$date":"2021-02-03T06:53:49.000Z"},"place":"Amavita Lugano","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Pfizer","location":{"type":"Point","coordinates":"[46.21157342402062 - 6.1344591324350075]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b9000024"},"uvci":"0078-0364","generated_on":{"$date":"2020-12-19T19:25:32.000Z"},"valid_until":{"$date":"2022-08-09T21:33:30.000Z"},"person":{"name":"Adélaïde","surname":"Marrable","birthday":{"$date":"1992-09-25T12:54:36.000Z"},"birthplace":"Basel","phone_number":"152-122-4031","email":"plarn6@skyrock.com","emergency_contact":{"name":"Papageno","surname":"Larn","phone_number":"863-230-7648"}},"vaccination":{"dose":"Dose 1","date_of_vaccination":{"$date":"2021-04-06T05:35:27.000Z"},"place":"Farmacia delle Semine","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Moderna","location":{"type":"Point","coordinates":"[46.00578028858427 - 8.955204232179256]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b9000025"},"uvci":"0555-0956","generated_on":{"$date":"2021-03-14T06:00:45.000Z"},"valid_until":{"$date":"2021-12-01T00:26:10.000Z"},"person":{"name":"Clélia","surname":"Grewe","birthday":{"$date":"1982-09-17T12:44:08.000Z"},"birthplace":"Luzern","phone_number":"533-288-2240","email":"mfairrie7@drupal.org","emergency_contact":{"name":"Margarette","surname":"Fairrie","phone_number":"330-137-9312"}},"vaccination":{"dose":"Dose 3","date_of_vaccination":{"$date":"2021-07-08T00:25:42.000Z"},"place":"Farmacia Male","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Sputnik","location":{"type":"Point","coordinates":"[46.01993746086479 - 8.96619056025192]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b9000026"},"uvci":"0378-6727","generated_on":{"$date":"2021-08-02T14:03:25.000Z"},"valid_until":{"$date":"2022-11-19T00:27:37.000Z"},"person":{"name":"Aimée","surname":"Yekel","birthday":{"$date":"1995-05-20T17:45:58.000Z"},"birthplace":"Zürich","phone_number":"407-937-3552","email":"mpietruschka8@pagesperso-orange.fr","emergency_contact":{"name":"Maurizio","surname":"Pietruschka","phone_number":"122-305-2430"}},"vaccination":{"dose":"Dose 1","date_of_vaccination":{"$date":"2021-05-03T23:15:43.000Z"},"place":"Farmacia Coop Vitality Viganello","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Sputnik","location":{"type":"Point","coordinates":"[46.00667453299541 - 8.966104729563854]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"},
-{"_id":{"$oid":"61a54fd7fc13ae23b9000027"},"uvci":"67544-102","generated_on":{"$date":"2021-10-20T11:26:47.000Z"},"valid_until":{"$date":"2022-09-06T16:00:02.000Z"},"person":{"name":"Annotés","surname":"Pfeifer","birthday":{"$date":"1961-12-25T04:24:48.000Z"},"birthplace":"Bern","phone_number":"586-620-0963","email":"njenckes9@wunderground.com","emergency_contact":{"name":"Niall","surname":"Jenckes","phone_number":"249-420-2889"}},"vaccination":{"dose":"Dose 3","date_of_vaccination":{"$date":"2021-08-13T07:15:29.000Z"},"place":"Amavita Lugano","country":"Switzerland","agent":"COVID-19","type":"SARS-CoV-2-mRNA vaccine","manufacturer":"Moderna","location":{"type":"Point","coordinates":"[46.21157342402062 - 6.1344591324350075]"}},"issuer":"BAG","information":"https://www.bag.admin.ch/bag/de/home.html"}]
+[
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b900001e"
+        },
+        "uvci": "41:CH:AURSALT9A013724LM92Q6G9F4K1M0P4LK6",
+        "generated_on": {
+            "$date": "2021-01-13T10:20:00.000Z"
+        },
+        "valid_until": {
+            "$date": "2022-01-13T10:20:00.000Z"
+        },
+        "person": {
+            "name": "Aurélie",
+            "surname": "Saltsberger",
+            "birthday": {
+                "$date": "1975-03-15T01:05:50.000Z"
+            },
+            "birthplace": "Bern",
+            "phone_number": "942-776-3132",
+            "email": "mlarcombe0@chron.com",
+            "emergency_contact": {
+                "name": "Mireille",
+                "surname": "Larcombe",
+                "phone_number": "794-648-1173"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2020-12-13T08:28:33.000Z"
+                },
+                "place": "Farmacia Amavita Centro Breggia",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.2083218307516,
+                        6.125876512213772
+                    ]
+                }
+            },
+            {
+                "dose": "Dose 2",
+                "date_of_vaccination": {
+                    "$date": "2021-01-13T10:20:00.000Z"
+                },
+                "place": "Farmacia Amavita Centro Breggia",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.2083218307516,
+                        6.125876512213772
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b900001f"
+        },
+        "uvci": "02:CH:EUGCAPT9A013724LM92Q6G9F4K1M0P4LFF1",
+        "generated_on": {
+            "$date": "2021-07-18T14:40:24.000Z"
+        },
+        "valid_until": {
+            "$date": "2022-07-18T23:55:59.000Z"
+        },
+        "person": {
+            "name": "Eugénie",
+            "surname": "Cappineer",
+            "birthday": {
+                "$date": "1977-05-04T14:50:11.000Z"
+            },
+            "birthplace": "Genève",
+            "phone_number": "618-448-2037",
+            "email": "bfishly1@who.int",
+            "emergency_contact": {
+                "name": "Benedick",
+                "surname": "Fishly",
+                "phone_number": "804-804-4644"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-06-18T12:51:47.000Z"
+                },
+                "place": "Farmacia Sun Store Lugano Peri",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Sputnik",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.2083218307516,
+                        6.125876512213772
+                    ]
+                }
+            },
+            {
+                "dose": "Dose 2",
+                "date_of_vaccination": {
+                    "$date": "2021-07-18T12:51:47.000Z"
+                },
+                "place": "Farmacia Sun Store Lugano Peri",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Sputnik",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.2083218307516,
+                        6.125876512213772
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b9000020"
+        },
+        "uvci": "78:CH:MEREVET9A014126LP56L6G9F4K1M0P4LMM6",
+        "generated_on": {
+            "$date": "2021-11-18T06:32:02.000Z"
+        },
+        "valid_until": {
+            "$date": "2021-11-18T06:16:33.000Z"
+        },
+        "person": {
+            "name": "Marie-ève",
+            "surname": "Shedden",
+            "birthday": {
+                "$date": "1977-10-23T07:13:20.000Z"
+            },
+            "birthplace": "Zürich",
+            "phone_number": "623-675-4215",
+            "email": "areyner2@nydailynews.com",
+            "emergency_contact": {
+                "name": "Annora",
+                "surname": "Reyner",
+                "phone_number": "924-258-3294"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-10-18T17:13:09.000Z"
+                },
+                "place": "Farmacia delle Semine",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Pfizer",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.01993746086479,
+                        8.96619056025192
+                    ]
+                }
+            },
+            {
+                "dose": "Dose 2",
+                "date_of_vaccination": {
+                    "$date": "2021-11-18T17:17:00.000Z"
+                },
+                "place": "Farmacia delle Semine",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Pfizer",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.01993746086479,
+                        8.96619056025192
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b9000021"
+        },
+        "uvci": "78:CH:LEAVIST9A016254LP56L6G9F4K1M0P4LPD1",
+        "generated_on": {
+            "$date": "2021-02-15T04:45:18.000Z"
+        },
+        "valid_until": {
+            "$date": "2021-12-30T08:19:30.000Z"
+        },
+        "person": {
+            "name": "Léa",
+            "surname": "Viste",
+            "birthday": {
+                "$date": "1976-09-18T06:04:07.000Z"
+            },
+            "birthplace": "Zürich",
+            "phone_number": "411-947-3631",
+            "email": "eeidler3@google.pl",
+            "emergency_contact": {
+                "name": "Ezequiel",
+                "surname": "Eidler",
+                "phone_number": "441-473-6890"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-02-15T18:44:55.000Z"
+                },
+                "place": "Farmacia delle Semine",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Jonson&Jonson",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.00667453299541,
+                        8.966104729563854
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b9000022"
+        },
+        "uvci": "28:CH:NOEBERT9A016254LP56L6G9F4K1M0P4LUY7",
+        "generated_on": {
+            "$date": "2021-11-19T18:45:35.000Z"
+        },
+        "valid_until": {
+            "$date": "2022-11-19T00:59:54.000Z"
+        },
+        "person": {
+            "name": "Noémie",
+            "surname": "Berkely",
+            "birthday": {
+                "$date": "1941-12-31T22:35:28.000Z"
+            },
+            "birthplace": "Zürich",
+            "phone_number": "589-156-7821",
+            "email": "mblackater4@e-recht24.de",
+            "emergency_contact": {
+                "name": "Max",
+                "surname": "Blackater",
+                "phone_number": "763-142-9140"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-02-19T20:45:37.000Z"
+                },
+                "place": "Farmacia Amavita Centro Breggia",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        47.38930611066339,
+                        8.50445198529752
+                    ]
+                }
+            },
+            {
+                "dose": "Dose 2",
+                "date_of_vaccination": {
+                    "$date": "2021-03-19T20:45:37.000Z"
+                },
+                "place": "Farmacia Amavita Centro Breggia",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        47.38930611066339,
+                        8.50445198529752
+                    ]
+                }
+            },
+            {
+                "dose": "Dose 3",
+                "date_of_vaccination": {
+                    "$date": "2021-11-19T20:45:37.000Z"
+                },
+                "place": "Farmacia Amavita Centro Breggia",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        47.38930611066339,
+                        8.50445198529752
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b9000023"
+        },
+        "uvci": "41:CH:VENCANT9A016254LP56L6G9F4K1M0P4LTT6",
+        "generated_on": {
+            "$date": "2021-03-03T20:38:45.000Z"
+        },
+        "valid_until": {
+            "$date": "2022-03-03T03:51:49.000Z"
+        },
+        "person": {
+            "name": "Vénus",
+            "surname": "Canelas",
+            "birthday": {
+                "$date": "1984-08-15T16:55:08.000Z"
+            },
+            "birthplace": "Genève",
+            "phone_number": "775-971-7074",
+            "email": "memps5@ucoz.ru",
+            "emergency_contact": {
+                "name": "Melloney",
+                "surname": "Emps",
+                "phone_number": "603-558-9882"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-02-03T06:53:49.000Z"
+                },
+                "place": "Amavita Lugano",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Pfizer",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.21157342402062,
+                        6.1344591324350075
+                    ]
+                }
+            },
+            {
+                "dose": "Dose 2",
+                "date_of_vaccination": {
+                    "$date": "2021-03-03T06:53:49.000Z"
+                },
+                "place": "Amavita Lugano",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Pfizer",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.21157342402062,
+                        6.1344591324350075
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b9000024"
+        },
+        "uvci": "02:CH:ADEMART9A016254LP56L6G9F4K1M0P4LUY76",
+        "generated_on": {
+            "$date": "2021-05-06T19:25:32.000Z"
+        },
+        "valid_until": {
+            "$date": "2022-05-06T21:33:30.000Z"
+        },
+        "person": {
+            "name": "Adélaïde",
+            "surname": "Marrable",
+            "birthday": {
+                "$date": "1992-09-25T12:54:36.000Z"
+            },
+            "birthplace": "Basel",
+            "phone_number": "152-122-4031",
+            "email": "plarn6@skyrock.com",
+            "emergency_contact": {
+                "name": "Papageno",
+                "surname": "Larn",
+                "phone_number": "863-230-7648"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-04-06T05:35:27.000Z"
+                },
+                "place": "Farmacia delle Semine",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.00578028858427,
+                        8.955204232179256
+                    ]
+                }
+            },
+            {
+                "dose": "Dose 2",
+                "date_of_vaccination": {
+                    "$date": "2021-05-06T05:35:27.000Z"
+                },
+                "place": "Farmacia delle Semine",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.00578028858427,
+                        8.955204232179256
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b9000025"
+        },
+        "uvci": "62:CH:CLEGRET9A016254LP56L6G9F4K1M0P4LFR1",
+        "generated_on": {
+            "$date": "2021-11-08T06:00:45.000Z"
+        },
+        "valid_until": {
+            "$date": "2022-06-08T00:26:10.000Z"
+        },
+        "person": {
+            "name": "Clélia",
+            "surname": "Grewe",
+            "birthday": {
+                "$date": "1982-09-17T12:44:08.000Z"
+            },
+            "birthplace": "Luzern",
+            "phone_number": "533-288-2240",
+            "email": "mfairrie7@drupal.org",
+            "emergency_contact": {
+                "name": "Margarette",
+                "surname": "Fairrie",
+                "phone_number": "330-137-9312"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-11-08T00:25:42.000Z"
+                },
+                "place": "Farmacia Male",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Sputnik",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.01993746086479,
+                        8.96619056025192
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b9000026"
+        },
+        "uvci": "08:CH:AIMYEKT9A016254LP56L6G9F4K1M0P4LAH6",
+        "generated_on": {
+            "$date": "2021-08-02T14:03:25.000Z"
+        },
+        "valid_until": {
+            "$date": "2022-11-19T00:27:37.000Z"
+        },
+        "person": {
+            "name": "Aimée",
+            "surname": "Yekel",
+            "birthday": {
+                "$date": "1995-05-20T17:45:58.000Z"
+            },
+            "birthplace": "Zürich",
+            "phone_number": "407-937-3552",
+            "email": "mpietruschka8@pagesperso-orange.fr",
+            "emergency_contact": {
+                "name": "Maurizio",
+                "surname": "Pietruschka",
+                "phone_number": "122-305-2430"
+            }
+        },
+        "vaccination": {
+            "dose": "Dose 1",
+            "date_of_vaccination": {
+                "$date": "2021-05-03T23:15:43.000Z"
+            },
+            "place": "Farmacia Coop Vitality Viganello",
+            "country": "Switzerland",
+            "agent": "COVID-19",
+            "type": "SARS-CoV-2-mRNA vaccine",
+            "manufacturer": "Sputnik",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    46.00667453299541,
+                    8.966104729563854
+                ]
+            }
+        },
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    },
+    {
+        "_id": {
+            "$oid": "61a54fd7fc13ae23b9000027"
+        },
+        "uvci": "07:CH:ANNPFET9A016254LP56L6G9F4K1M0P4LSU7",
+        "generated_on": {
+            "$date": "2021-09-13T11:26:47.000Z"
+        },
+        "valid_until": {
+            "$date": "2022-09-13T16:00:02.000Z"
+        },
+        "person": {
+            "name": "Annotés",
+            "surname": "Pfeifer",
+            "birthday": {
+                "$date": "1961-12-25T04:24:48.000Z"
+            },
+            "birthplace": "Bern",
+            "phone_number": "586-620-0963",
+            "email": "njenckes9@wunderground.com",
+            "emergency_contact": {
+                "name": "Niall",
+                "surname": "Jenckes",
+                "phone_number": "249-420-2889"
+            }
+        },
+        "vaccination": [
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-08-13T07:15:29.000Z"
+                },
+                "place": "Amavita Lugano",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.21157342402062,
+                        6.1344591324350075
+                    ]
+                }
+            },
+            {
+                "dose": "Dose 1",
+                "date_of_vaccination": {
+                    "$date": "2021-09-13T07:15:29.000Z"
+                },
+                "place": "Amavita Lugano",
+                "country": "Switzerland",
+                "agent": "COVID-19",
+                "type": "SARS-CoV-2-mRNA vaccine",
+                "manufacturer": "Moderna",
+                "location": {
+                    "type": "Point",
+                    "coordinates": [
+                        46.21157342402062,
+                        6.1344591324350075
+                    ]
+                }
+            }
+        ],
+        "issuer": "BAG",
+        "information": "https://www.bag.admin.ch/bag/de/home.html"
+    }
+]
