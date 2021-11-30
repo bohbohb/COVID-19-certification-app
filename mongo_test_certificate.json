@@ -1,11 +1,17 @@
 {
     "uvci": "01:IT:MS1133AP012654UIA12B3A3GAL11AAIO3",
-    "generated_on": { "$date": "2021-11-02T15:32:10.000Z" },
-    "valid_until": { "$date": "2022-11-04T15:32:10.000Z" },
+    "generated_on": {
+        "$date": "2021-11-02T15:32:10.000Z"
+    },
+    "valid_until": {
+        "$date": "2022-11-04T15:32:10.000Z"
+    },
     "person": {
         "name": "Mario",
         "surname": "Rossi",
-        "birthday": { "$date": "1995-01-30T00:00:00.000Z" },
+        "birthday": {
+            "$date": "1995-01-30T00:00:00.000Z"
+        },
         "birthplace": "Via Calibri, 22, 20141 Milano IT",
         "phone_number": "+39 332 429 7765",
         "email": "mario.rossi@live.com",
@@ -16,11 +22,17 @@
         }
     },
     "test": {
-            "date": { "$date": "2021-11-02T15:02:10.000Z" },
-            "place": "Farmacia di Lungo Corso",
-            "country": "Italy",
-            "type": "PCR",
-            "result": "Negative"
+        "date": {
+            "$date": "2021-11-02T15:02:10.000Z"
+        },
+        "place": "Farmacia di Lungo Corso",
+        "country": "Italy",
+        "type": "PCR",
+        "result": true,
+        "location": {
+            "type": "Point",
+            "coordinates": [46.01624204332715, 8.957349999380948]
+        }
     },
     "issuer": "BAG",
     "information": "https://www.bag.admin.ch/bag/de/home.html"

@@ -1,11 +1,17 @@
 {
     "uvci": "95:CH:LSKR8LA013724LM92Q6G9F4P1L194LK6",
-    "generated_on": { "$date": "2021-08-31T09:24:00.000Z" },
-    "valid_until": { "$date": "2022-08-31T09:24:00.000Z" },
+    "generated_on": {
+        "$date": "2021-08-31T09:24:00.000Z"
+    },
+    "valid_until": {
+        "$date": "2022-08-31T09:24:00.000Z"
+    },
     "person": {
         "name": "John",
         "surname": "Rambo",
-        "birthday": { "$date": "1947-07-22T00:00:00.000Z" },
+        "birthday": {
+            "$date": "1947-07-22T00:00:00.000Z"
+        },
         "birthplace": "Via Giuseppina, 85A, 6900 Lugano CH",
         "phone_number": "+417901237659",
         "email": "john.rambo@gmail.com",
@@ -18,7 +24,9 @@
     "vaccination": [
         {
             "dose": "1",
-            "date_of_vaccination": { "$date": "2021-07-28T10:10:00.000Z" },
+            "date_of_vaccination": {
+                "$date": "2021-07-28T10:10:00.000Z"
+            },
             "place": "Farmacia Contrada dei Patrizi",
             "country": "Switzerland",
             "agent": "COVID-19",
@@ -26,12 +34,17 @@
             "manufacturer": "Moderna Biontech Spain S.L.",
             "location": {
                 "type": "Point",
-                "coordinates": [46.01740150875358, 8.977352183191762]
+                "coordinates": [
+                    46.01740150875358,
+                    8.977352183191762
+                ]
             }
         },
         {
             "dose": "2",
-            "date_of_vaccination": { "$date": "2021-08-31T09:02:00.000Z" },
+            "date_of_vaccination": {
+                "$date": "2021-08-31T09:02:00.000Z"
+            },
             "place": "Farmacia di Breganzona",
             "country": "Switzerland",
             "agent": "COVID-19",
@@ -39,7 +52,10 @@
             "manufacturer": "Moderna Biontech Spain S.L.",
             "location": {
                 "type": "Point",
-                "coordinates": [46.01203686599784, 8.926540415855683]
+                "coordinates": [
+                    46.01203686599784,
+                    8.926540415855683
+                ]
             }
         }
     ],

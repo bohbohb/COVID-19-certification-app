@@ -610,7 +610,7 @@
                 }
             },
             {
-                "dose": "Dose 1",
+                "dose": "Dose 2",
                 "date_of_vaccination": {
                     "$date": "2021-09-13T07:15:29.000Z"
                 },
