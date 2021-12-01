@@ -1,0 +1,51 @@
+<h1>Dashboard</h1>
+<table>
+    <tr>
+        <td>Vaccinations between 1 January and 1 August</td>
+        <td>
+            <ul>
+                <li *ngFor="let c of vaccinations">{{c.person.surname}} {{c.person.name}}</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Vaccination with moderna</td>
+        <td>
+            <ul>
+                <li *ngFor="let c of vaccinationsWithModerna">{{c.person.surname}} {{c.person.name}}</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Unique manufacturer of vaccinations</td>
+        <td>
+            <ul>
+                <li *ngFor="let m of uniqueManufacturers">{{m}}</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Positive tests</td>
+        <td>
+            <ul>
+                <li *ngFor="let c of positiveTests">{{c.person.surname}} {{c.person.name}}</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Types of tests</td>
+        <td>
+            <ul>
+                <li *ngFor="let t of testTypes">{{t}}</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Vaccination in Lugano</td>
+        <td>
+            <ul>
+                <li *ngFor="let c of vaccinationsLugano">{{c.person.surname}} {{c.person.name}}</li>
+            </ul>
+        </td>
+    </tr>
+</table>

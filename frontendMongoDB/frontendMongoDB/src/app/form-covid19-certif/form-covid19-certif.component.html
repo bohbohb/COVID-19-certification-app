@@ -1,0 +1,194 @@
+<h2>COVID-19 Certif Form</h2>
+<form [formGroup]="certifCovForm" (ngSubmit)="submitForm()" novalidate *ngIf="certifCovForm">
+    <fieldset>
+        <legend>Certification type</legend>
+        <input type="radio" id="type-vaccination" name="type-certif" value="vaccination" checked (change)="changeTypeCertif($event)">
+        <label for="type-vaccination">Vaccination</label>
+        <input type="radio" id="type-test" name="type-certif" value="test" (change)="changeTypeCertif($event)">
+        <label for="type-test">Test</label>
+        <input type="radio" id="type-add-vac" name="type-certif" value="add-vac" (change)="changeTypeCertif($event)">
+        <label for="type-add-vac">Add vaccine</label>
+    </fieldset>
+
+    <fieldset *ngIf="typeCertif=='vaccination' || typeCertif=='test'">
+        <legend>Personal information</legend>
+        <table>
+            <tr>
+                <td><label for="fname">First name:</label></td>
+                <td><input type="text" id="fname" name="fname" formControlName="firstname"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last name:</label></td>
+                <td><input type="text" id="lname" name="lname" formControlName="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="bdate">Birth date:</label></td>
+                <td><input type="date" id="bdate" name="bdate" formControlName="birthdate"></td>
+            </tr>
+            <tr>
+                <td><label for="bplace">Birth place:</label></td>
+                <td><input type="text" id="bplace" name="bplace" formControlName="birthplace"></td>
+            </tr>
+            <tr>
+                <td><label for="phone-number">Phone number:</label></td>
+                <td><input type="tel" id="phone-number" name="phone-number" formControlName="phonenumber"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" formControlName="email"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset *ngIf="typeCertif=='vaccination' || typeCertif=='test'">
+        <legend>Emergency contact</legend>
+        <table>
+            <tr>
+                <td><label for="ec-fname">First name:</label></td>
+                <td><input type="text" id="ec-fname" name="ec-fname" formControlName="ecFirstname"></td>
+            </tr>
+            <tr>
+                <td><label for="ec-lname">Last name:</label></td>
+                <td><input type="text" id="ec-lname" name="ec-lname" formControlName="ecLastname"></td>
+            </tr>
+            <tr>
+                <td><label for="ec-phone-number">Phone number:</label></td>
+                <td><input type="tel" id="ec-phone-number" name="ec-phone-number" formControlName="ecPhonenumber"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+   <fieldset *ngIf="typeCertif=='add-vac'">
+        <legend>Select a person</legend>
+        <select id="person" name="person" formControlName="fullname">
+            <option *ngFor="let p of persons" value="{{p}}">{{p}}</option>
+        </select>
+   </fieldset>
+    
+    <fieldset *ngIf="typeCertif=='vaccination' || typeCertif=='add-vac'">
+        <legend>Vaccination</legend>
+        <table>
+            <tr>
+                <td><label for="dose">Dose:</label></td>
+                <td>
+                    <select id="dose" name="dose" formControlName="dose">
+                        <option *ngFor="let d of doses" value="{{d}}">{{d}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="vdate">Vaccination date:</label></td>
+                <td><input type="datetime-local" id="vdate" name="vdate" formControlName="vaccinationDate"></td>
+            </tr>
+            <tr>
+                <td><label for="vplace">Vaccination place:</label></td>
+                <td>
+                    <select id="vplace" name="vplace" formControlName="vaccinationPlace">
+                        <option *ngFor="let p of places" value="{{p}}">{{p}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="manufacturer">Manufacturer:</label></td>
+                <td>
+                    <select id="manufacturer" name="manufacturer" formControlName="manufacturer">
+                        <option *ngFor="let m of manufacturers" value="{{m}}">{{m}}</option>
+                    </select>
+                </td>
+            </tr>
+        </table>    
+    </fieldset>
+    <fieldset *ngIf="typeCertif=='test'">
+        <legend>Test</legend>
+        <table>
+            <tr>
+                <td><label for="tdate">Test date:</label></td>
+                <td><input type="datetime-local" id="tdate" name="tdate" formControlName="testDate"></td>
+            </tr>
+            <tr>
+                <td><label for="tplace">Test place:</label></td>
+                <td>
+                    <select id="tplace" name="tplace" formControlName="testPlace">
+                        <option *ngFor="let p of places" value="{{p}}">{{p}}</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Test result:</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="test-positive" name="testResult" formControlName="testResult" value="true">
+                    <label for="test-positive">Positive</label>
+                </td>
+                <td>
+                    <input type="radio" id="test-negative" name="testResult" formControlName="testResult" value="false">
+                    <label for="test-negative">Negative</label>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="submit" id="gen-certif" value="Generate COVID-19 Certif">
+</form>
+
+<div *ngIf="typeCertif != 'add-vac'">
+    <p class="error" *ngIf="isSubmit && errorControl.firstname.errors?.required">
+        The first name is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.lastname.errors?.required">
+        The last name is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.birthdate.errors?.required">
+        The birth date is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.birthplace.errors?.required">
+        The birth place is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.phonenumber.errors?.required">
+        The phone number is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.email.errors?.required">
+        The email is required.
+    </p>
+    
+    <p class="error" *ngIf="isSubmit && errorControl.ecFirstname.errors?.required">
+        The firt name of the emergency contact is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.ecLastname.errors?.required">
+        The last name of the emergency contact is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.ecPhonenumber.errors?.required">
+        The phone number of the emergency contact is required.
+    </p>
+</div>
+
+<div *ngIf="typeCertif=='vaccination'">
+    <p class="error" *ngIf="isSubmit && errorControl.dose.errors?.required">
+        The number of the dose is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.vaccinationDate.errors?.required">
+        The vaccination date is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.vaccinationPlace.errors?.required">
+        The vaccination place is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.manufacturer.errors?.required">
+        The manufacturer is required.
+    </p>
+</div>
+
+<div *ngIf="typeCertif=='test'">
+    <p class="error" *ngIf="isSubmit && errorControl.testDate.errors?.required">
+        The test date is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.testPlace.errors?.required">
+        The test place is required.
+    </p>
+    <p class="error" *ngIf="isSubmit && errorControl.testResult.errors?.required">
+        The test result is required.
+    </p>
+</div>
+
+<div *ngIf="genCertif != undefined">
+    <app-covid19-certificate [certif]="genCertif"></app-covid19-certificate>
+</div>

@@ -1,0 +1,41 @@
+<div *ngIf="certif != undefined">
+    <img style="display:block; margin: auto; height: 50px" src="../assets/swissicon.png"/><br>
+    <div class="container">
+        <qr-code [size]="300" *ngIf="json != ''" [value]="json"></qr-code>
+        <h2>{{certif.person.name}} {{certif.person.surname}}</h2>
+        <label>{{certif.person.birthday}}</label>
+    
+        <div class="backblue">
+            <table>
+                <tr>
+                    <td>Validity <br>in Switzerland</td>
+                    <td>{{certif.valid_until}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div *ngIf="certif.vaccination != undefined">
+        <div *ngIf="certif.vaccination[certif.vaccination.length - 1] != undefined">
+            <h4>Vaccination</h4>
+            <h4>Dose: {{certif.vaccination.length}}/3</h4>
+            <h4>Agent of targeted: Covid-19</h4>
+            <h4>Vaccine type: {{certif.vaccination[certif.vaccination.length - 1].type}}</h4>
+            <h4>Manufacturer: {{certif.vaccination[certif.vaccination.length - 1].manufacturer}}</h4>
+            <h4>Date of vaccination: {{certif.vaccination[certif.vaccination.length - 1].date_of_vaccination}}</h4>
+            <h4>Country of vaccination: Switzerland</h4>
+        </div>
+    </div>
+
+    <div *ngIf="certif.test != undefined">
+        <h4>Test</h4>
+        <h4>Agent of targeted: Covid-19</h4>
+        <h4>Result: {{certif.test.result}}</h4>
+        <h4>Date of sample collection: {{certif.test.date_of_test}}</h4>
+        <h4>Test centre: {{certif.test.place}}</h4>
+        <h4>Country of test: {{certif.test.country}}</h4>
+    </div>
+
+    <h4>Issuer Bundesamt für Gesundheit (BAG)</h4>
+    <h4>UVCI: {{certif.uvci}}</h4>
+    <h4>Certificate generated on: {{certif.generated_on}}</h4>    
+</div>
